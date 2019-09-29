@@ -14,7 +14,6 @@ const useStyles = makeStyles({
 export default () => {
     const classes = useStyles()
 
-    const name = "Vinay's"
     return (
         <AppBar position="static">
             <Toolbar>
@@ -23,7 +22,7 @@ export default () => {
                     color="inherit"
                     className={classes.grow}
                 >
-                    {name} EOG React Visualization Assessment
+
                 </Typography>
                 <Weather />
             </Toolbar>
